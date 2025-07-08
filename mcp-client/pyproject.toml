@@ -1,0 +1,14 @@
+[project]
+name = "mcp-client"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp>=1.10.1",
+    "numpy>=2.3.1",
+    "openai>=1.93.0",
+    "opencv-python>=4.11.0.86",
+    "python-dotenv>=1.1.1",
+]
